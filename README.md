@@ -19,7 +19,7 @@ Data entrega: 13/01/2018
   * Services
     * - [ ] 
   * Testos
-    * - [X] Exemple de com funciona
+    * - [ ] Exemple de com funciona
     
 ### Authors ###
 * [Miquel Oliveros](https://github.com/MiquelOliveros)
