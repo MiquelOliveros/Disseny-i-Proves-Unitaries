@@ -1,5 +1,10 @@
 package kiosk;
 
+import data.MailAdress;
+import data.Party;
+import services.ElectoralOrganism;
+import services.MailerService;
+
 public class VotingKiosk {
 
     //TODO
@@ -18,7 +23,7 @@ public class VotingKiosk {
     public void vote(Party party){
         //TODO
     }
-    public void sendeReceipt(MailAddress address){
+    public void sendeReceipt(MailAdress address){
         //TODO
     }
 

@@ -28,7 +28,7 @@ public class VoteCounter {
         //TODO
     }
 
-    /**Getters*/
+    /*Getters*/
     public int getVotesFor(Party party) {
         //TODO
         return 0;
