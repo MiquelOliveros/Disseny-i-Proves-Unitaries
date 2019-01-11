@@ -28,16 +28,21 @@ public class VoteCounter {
         //TODO
     }
 
+    /**Getters*/
     public int getVotesFor(Party party) {
         //TODO
+        return 0;
     }
     public int getNulls() {
         //TODO
+        return 0;
     }
     public int getBlanks() {
         //TODO
+        return 0;
     }
     public int getTotal() {
         //TODO
+        return 0;
     }
 }
