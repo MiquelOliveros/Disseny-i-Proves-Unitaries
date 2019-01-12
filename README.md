@@ -28,7 +28,7 @@ Data entrega: 13/01/2018
     * Kiosk
       * - [ ] VoteCounterTest
       * - [ ] VotingKioskTest
-      * - [ ] SON TESTOS DOBLES
+      * - [ ] TESTOS DOBLES
   * Exception
     * - [X] Electoral Organism not available
     * - [X] Mail Service not available
