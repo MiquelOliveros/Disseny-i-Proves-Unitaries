@@ -7,7 +7,6 @@ import java.util.Set;
 public class VoteCounter {
 
     //Variables de la classe VoteCounter necessaries pels metodes seguents
-
     private int nullVote, blankVote, totalVots;
     private HashMap<Party,Integer> hashVot;
     private ArrayList<Party> arrayNames;
@@ -24,11 +23,12 @@ public class VoteCounter {
         if(arrayNames.contains(party)) {
             if (!hashVot.containsKey(party)) {
                 hashVot.put(party, 1);
-            }else {
+            }else{
                 hashVot.put(party, hashVot.get(party) + 1);
             }
+        }else{
+            totalVots+=1;
         }
-        totalVots+=1;
     }
 
     //Incrementa el comptador de vots nuls
@@ -58,8 +58,9 @@ public class VoteCounter {
 
     //retorna el nombre de vots que ha obtingut el partit
     public int getVotesFor(Party party) {
-        if(!hashVot.containsKey(party))
+        if(!hashVot.containsKey(party)){
             return 0;
+        }
         return hashVot.get(party);
     }
 

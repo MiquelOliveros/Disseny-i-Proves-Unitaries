@@ -14,11 +14,11 @@ Data entrega: 13/01/2018
   * Kiosk
     * - [X] VoteCounter
     * - [ ] VotingKiosk
-    * - [ ] ...fer el que queda...
   * Services
     * - [X] ElectoralOrganism
+    * - [X] ElectoralOrganism Implementation
     * - [X] MailerService
-    * - [ ] ...fer el que queda...
+    * - [X] MailerService Implementation
   * Testos
     * Data
       * - [X] PartyTest
@@ -27,9 +27,13 @@ Data entrega: 13/01/2018
       * - [X] DigitalSignatureTest
     * Kiosk
       * - [ ] VoteCounterTest
-      * - [ ] VotingKiosk
-    * Services
-      * - [ ] ... fer dobles...
+      * - [ ] VotingKioskTest
+      * - [ ] SON TESTOS DOBLES
+  * Exception
+    * - [X] Electoral Organism not available
+    * - [X] Mail Service not available
+    * - [X] Digital Signature not available
+    * - [X] Parametre Null
   * Documentació
     * - [ ] Documentació 
     
