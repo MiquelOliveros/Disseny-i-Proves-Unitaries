@@ -1,11 +1,16 @@
 package data;
+import Exception.NullParameterException;
 
 public class MailAdress {
 
     private final String adress;
 
     public MailAdress(String adress) {
-        this.adress = adress;
+        if(adress == null){
+            throw new NullParameterException();
+        }else{
+            this.adress = adress;
+        }
     }
 
     public String getAdress(){

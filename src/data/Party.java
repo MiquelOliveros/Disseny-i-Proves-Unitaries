@@ -1,11 +1,16 @@
 package data;
+import Exception.NullParameterException;
 
 public class Party {
 
     private final String name;
 
     public Party(String name){
-        this.name = name;
+        if(name == null){
+            throw new NullParameterException();
+        }else {
+            this.name = name;
+        }
     }
 
     public String getName(){

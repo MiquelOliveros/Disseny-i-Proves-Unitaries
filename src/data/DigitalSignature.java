@@ -1,11 +1,16 @@
 package data;
+import Exception.NullParameterException;
 
 public class DigitalSignature {
 
     private final byte[] signature;
 
     public DigitalSignature(byte[] signature) {
-        this.signature = signature;
+        if (signature == null){
+            throw new NullParameterException();
+        }else{
+            this.signature = signature;
+        }
     }
 
     public byte[] getSignature(){
