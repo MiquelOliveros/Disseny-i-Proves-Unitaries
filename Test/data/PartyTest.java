@@ -3,11 +3,11 @@ package data;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import Exception.NullParameterException;
 
 class PartyTest {
 
+    private Party party;
     private static final String name1 = "party1";
     private static final String name2 = "party2";
 
@@ -39,5 +39,12 @@ class PartyTest {
         Party name = new Party(name1);
         String out = "Party{" + "name='" + name1 + '\'' + '}';
         Assertions.assertEquals(out,name.toString());
+    }
+
+    @Test
+    @DisplayName("Party Exception")
+    void testPartyException(){
+        Assertions.assertThrows(NullParameterException.class,
+                () -> party = new Party(null));
     }
 }

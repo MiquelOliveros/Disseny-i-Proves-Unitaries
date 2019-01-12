@@ -1,14 +1,16 @@
 package data;
 
 import org.junit.jupiter.api.Assertions;
+import Exception.NullParameterException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 class DigitalSignatureTest {
 
-    private static final byte[] digital_signature = "digital_signature".getBytes();
-    private static final byte[] digital_signature1 = "digital_signature1".getBytes();
-    private static final byte[] digital_signature2 = "digital_signature2".getBytes();
+    private DigitalSignature digital;
+    private static byte[] digital_signature = "digital_signature".getBytes();
+    private static byte[] digital_signature1 = "digital_signature1".getBytes();
+    private static byte[] digital_signature2 = "digital_signature2".getBytes();
 
     @Test
     @DisplayName("DigitalSignature equals")
@@ -42,5 +44,12 @@ class DigitalSignatureTest {
         DigitalSignature signature = new DigitalSignature(digital_signature);
         String out = "DigitalSignature{" + "signature='" + digital_signature + '\'' + '}';
         Assertions.assertEquals(out,signature.toString());
+    }
+
+    @Test
+    @DisplayName("DigitalSignature Exception")
+    void testDigitalSignatureException(){
+        Assertions.assertThrows(NullParameterException.class,
+                () -> digital = new DigitalSignature(null));
     }
 }

@@ -3,11 +3,11 @@ package data;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import static org.junit.jupiter.api.Assertions.*;
+import Exception.NullParameterException;
 
 class MailAdressTest {
 
+    private MailAdress mailAdress;
     private static final String mail = "abcd@gmail.com";
     private static final String mail1 = "abeg@hotmail.com";
 
@@ -39,5 +39,12 @@ class MailAdressTest {
         MailAdress mailAdress = new MailAdress(mail);
         String out = "MailAdress{" + "adress='" + mail + '\'' + '}';
         Assertions.assertEquals(out,mailAdress.toString());
+    }
+
+    @Test
+    @DisplayName("MailAdress Exception")
+    void testMailAdressException(){
+        Assertions.assertThrows(NullParameterException.class,
+                () -> mailAdress = new MailAdress(null));
     }
 }

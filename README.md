@@ -12,7 +12,7 @@ Data entrega: 13/01/2018
     * - [X] MailAdress
     * - [X] DigitalSignature
   * Kiosk
-    * - [ ] VoteCounter
+    * - [X] VoteCounter
     * - [ ] VotingKiosk
     * - [ ] ...fer el que queda...
   * Services
@@ -25,6 +25,11 @@ Data entrega: 13/01/2018
       * - [X] NifTest
       * - [X] MailAdressTest
       * - [X] DigitalSignatureTest
+    * Kiosk
+      * - [ ] VoteCounterTest
+      * - [ ] VotingKiosk
+    * Services
+      * - [ ] ... fer dobles...
   * Documentació
     * - [ ] Documentació 
     
