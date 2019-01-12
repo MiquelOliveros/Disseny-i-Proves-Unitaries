@@ -208,7 +208,7 @@
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547251404735" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547251547248" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../../ProbesJunit5/Tests/DictionaryEmpty.java" />
@@ -237,7 +237,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NifTest.test_toString">
+  <component name="RunManager" selected="JUnit.NifTest">
     <configuration name="DigitalSignatureTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Disseny-i-Proves-Unitaries" />
       <extension name="coverage">
@@ -323,8 +323,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NifTest.test_toString" />
         <item itemvalue="JUnit.NifTest" />
+        <item itemvalue="JUnit.NifTest.test_toString" />
         <item itemvalue="JUnit.NifTest.test_equals" />
         <item itemvalue="JUnit.DigitalSignatureTest" />
         <item itemvalue="JUnit.DigitalSignatureTest.test_toString" />
