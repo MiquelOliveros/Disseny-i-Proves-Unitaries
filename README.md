@@ -7,10 +7,10 @@ Data entrega: 13/01/2018
 
 ### Tasks ###
   * Data
-    * - [ ] Party
-    * - [ ] Nif
-    * - [ ] MailAdress
-    * - [ ] DigitalSignature
+    * - [X] Party
+    * - [X] Nif
+    * - [X] MailAdress
+    * - [X] DigitalSignature
   * Kiosk
     * - [ ] VoteCounter
     * - [ ] VotingKiosk
@@ -20,7 +20,11 @@ Data entrega: 13/01/2018
     * - [X] MailerService
     * - [ ] ...fer el que queda...
   * Testos
-    * - [ ] Exemple de com funciona
+    * Data
+      * - [X] PartyTest
+      * - [X] NifTest
+      * - [X] MailAdressTest
+      * - [X] DigitalSignatureTest
   * Documentació
     * - [ ] Documentació 
     
