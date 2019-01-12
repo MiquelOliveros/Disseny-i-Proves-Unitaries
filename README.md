@@ -13,7 +13,7 @@ Data entrega: 13/01/2018
     * - [X] DigitalSignature
   * Kiosk
     * - [X] VoteCounter
-    * - [ ] VotingKiosk
+    * - [X] VotingKiosk
   * Services
     * - [X] ElectoralOrganism
     * - [X] ElectoralOrganism Implementation
