@@ -16,7 +16,6 @@ class PartyTest {
         Party name_1 = new Party(name1);
         Party name_2 = new Party(name2);
         Party name_equal = new Party(name1);
-
         Assertions.assertEquals(name_1, name_equal);
         Assertions.assertNotEquals(name_1, name_2);
     }
@@ -27,7 +26,6 @@ class PartyTest {
         Party name_1 = new Party(name1);
         Party name_2 = new Party(name2);
         Party name_equal = new Party(name1);
-
         Assertions.assertEquals(name_1.hashCode(), name_equal.hashCode());
         Assertions.assertNotEquals(name_1.hashCode(), name_2.hashCode());
     }

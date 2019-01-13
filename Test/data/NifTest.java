@@ -16,7 +16,6 @@ class NifTest {
         Nif nif_1 = new Nif(nif);
         Nif nif_2 = new Nif(nif1);
         Nif nif_equal = new Nif(nif);
-
         Assertions.assertEquals(nif_1, nif_equal);
         Assertions.assertNotEquals(nif, nif_2);
     }
@@ -27,7 +26,6 @@ class NifTest {
         Nif nif_1 = new Nif(nif);
         Nif nif_2 = new Nif(nif1);
         Nif nif_equal = new Nif(nif);
-
         Assertions.assertNotEquals(nif_1.hashCode(), nif_2.hashCode());
         Assertions.assertEquals(nif_1.hashCode(), nif_equal.hashCode());
     }

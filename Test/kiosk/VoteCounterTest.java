@@ -49,4 +49,11 @@ class VoteCounterTest {
         Assertions.assertEquals(0, count.getNulls());
         Assertions.assertEquals(0, count.getVotesFor(new Party("PSOE")));
     }
+
+    @Test
+    @DisplayName("VoteCounter test null parameter")
+    void test_null(){
+        Assertions.assertThrows(NullParameterException.class,
+                ()->{count.scrutinize(new Party(null));});
+    }
 }

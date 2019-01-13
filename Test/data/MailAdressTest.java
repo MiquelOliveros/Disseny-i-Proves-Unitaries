@@ -16,7 +16,6 @@ class MailAdressTest {
         MailAdress mail_1 = new MailAdress(mail);
         MailAdress mail_2 = new MailAdress(mail1);
         MailAdress mail_equal = new MailAdress(mail);
-
         Assertions.assertEquals(mail_1, mail_equal);
         Assertions.assertNotEquals(mail_1, mail_2);
     }
@@ -27,7 +26,6 @@ class MailAdressTest {
         MailAdress mail_1 = new MailAdress(mail);
         MailAdress mail_2 = new MailAdress(mail1);
         MailAdress mail_equal = new MailAdress(mail);
-
         Assertions.assertEquals(mail_1.hashCode(), mail_equal.hashCode());
         Assertions.assertNotEquals(mail_1.hashCode(), mail_2.hashCode());
     }
