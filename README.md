@@ -42,8 +42,8 @@ Data entrega: 13/01/2018
 * [Miquel Oliveros](https://github.com/MiquelOliveros)
 * [Aaron Gil](https://github.com/AaronGil)
 
-### Enunciat documentació ###
-[Enllaç a la documentació](https://docs.google.com/document/d/16vMXCjNFbPoRZnOeqJeL2ngbiJTdyhKwhy48NmcTtw4/edit?usp=sharing)
+### Documentació ###
+[Enllaç a la documentació](https://drive.google.com/open?id=16YFNxBMpq7K5nSn9Mxlr5nQMbQpz1JKH)
 
 ### Enunciat pràctica ###  
 [Enllaç al pdf de la pràctica](https://cv.udl.cat/access/content/attachment/102018-1819/Activitats/a359e809-9386-46d9-aafc-f70331749b4c/EnunciatPractica-Testing.pdf)
