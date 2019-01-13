@@ -1,4 +1,5 @@
 package kiosk;
+
 import data.Party;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +8,7 @@ import java.util.Set;
 public class VoteCounter {
 
     //Variables de la classe VoteCounter necessaries pels metodes seguents
-    private int nullVote, blankVote, totalVots;
+    private int nullVote, blankVote, totalVotes;
     private HashMap<Party,Integer> hashVot;
     private ArrayList<Party> arrayNames;
 
@@ -26,21 +27,17 @@ public class VoteCounter {
             }else{
                 hashVot.put(party, hashVot.get(party) + 1);
             }
-        }else{
-            totalVots+=1;
         }
     }
 
     //Incrementa el comptador de vots nuls
     public void countNull() {
         this.nullVote += 1;
-        this.totalVots += 1;
     }
 
     //Incrementa el comptador de vots en blanc
     public void countBlank() {
         this.blankVote += 1;
-        this.totalVots += 1;
     }
 
     //fa us dels metodes anteriors per escrutar opcio de vot correctament
@@ -52,6 +49,7 @@ public class VoteCounter {
         }else{
             countParty(party);
         }
+        this.totalVotes += 1;
     }
 
     //GETTERS
@@ -76,6 +74,6 @@ public class VoteCounter {
 
     //retorna el nombre total de vots comptabilitzats
     public int getTotal() {
-        return totalVots;
+        return totalVotes;
     }
 }

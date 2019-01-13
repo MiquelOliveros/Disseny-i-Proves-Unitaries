@@ -2,15 +2,10 @@ package kiosk;
 
 import data.Party;
 import org.junit.jupiter.api.*;
-
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-
-import Exception.NullParameterException;
-
-import static org.junit.jupiter.api.Assertions.*;
-
+import data.NullParameterException;
 
 class VoteCounterTest {
 
@@ -24,16 +19,7 @@ class VoteCounterTest {
     @BeforeEach
     public void initTest(){
         possiblesVots = new HashSet<>(Arrays.asList(party, party1, party2, party3));
-
         count = new VoteCounter(possiblesVots);
-    }
-
-    @Test
-    @DisplayName("VoteCounter correct scrutinize with no votes")
-    void Test_Scrutinize() throws NullParameterException{
-        Assertions.assertEquals(0, count.getBlanks());
-        Assertions.assertEquals(0, count.getNulls());
-        Assertions.assertEquals(0, count.getVotesFor(new Party("PSOE")));
     }
 
     @Test
@@ -56,5 +42,11 @@ class VoteCounterTest {
         Assertions.assertEquals(9, count.getTotal());
     }
 
-
+    @Test
+    @DisplayName("VoteCounter correct scrutinize with no votes")
+    void Test_Scrutinize() throws NullParameterException{
+        Assertions.assertEquals(0, count.getBlanks());
+        Assertions.assertEquals(0, count.getNulls());
+        Assertions.assertEquals(0, count.getVotesFor(new Party("PSOE")));
+    }
 }

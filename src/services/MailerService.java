@@ -2,7 +2,6 @@ package services;
 
 import data.DigitalSignature;
 import data.MailAdress;
-import Exception.NoMailerServiceException;
 
 /**
  * External service for sending mails

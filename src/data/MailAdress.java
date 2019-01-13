@@ -1,5 +1,4 @@
 package data;
-import Exception.NullParameterException;
 
 public class MailAdress {
 

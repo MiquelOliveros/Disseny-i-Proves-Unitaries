@@ -19,6 +19,8 @@ Data entrega: 13/01/2018
     * - [X] ElectoralOrganism Implementation
     * - [X] MailerService
     * - [X] MailerService Implementation
+  * Part Opcional
+    * - [ ] Realitzada
   * Testos
     * Data
       * - [X] PartyTest
@@ -26,9 +28,8 @@ Data entrega: 13/01/2018
       * - [X] MailAdressTest
       * - [X] DigitalSignatureTest
     * Kiosk
-      * - [ ] VoteCounterTest
-      * - [ ] VotingKioskTest
-      * - [ ] TESTOS DOBLES
+      * - [X] VoteCounterTest
+      * - [X] VotingKioskTest
   * Exception
     * - [X] Electoral Organism not available
     * - [X] Mail Service not available
