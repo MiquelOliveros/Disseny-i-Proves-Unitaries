@@ -17,7 +17,7 @@ class VotingKioskTest {
     private Party party_4 = new Party("CIUTADANS");
 
     @BeforeEach
-        //establim els serveis externs, els partits disponibles i un votant
+    //establim els serveis externs, els partits disponibles i un votant
     void init(){
         Set<Party> parties = new HashSet<>(Arrays.asList(party_1, party_2, party_3, party_4));
         kiosk = new VotingKiosk();

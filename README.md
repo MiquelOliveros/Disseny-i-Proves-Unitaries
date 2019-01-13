@@ -36,7 +36,7 @@ Data entrega: 13/01/2018
     * - [X] Digital Signature not available
     * - [X] Parametre Null
   * Documentació
-    * - [ ] Documentació 
+    * - [X] Documentació 
     
 ### Authors ###
 * [Miquel Oliveros](https://github.com/MiquelOliveros)
